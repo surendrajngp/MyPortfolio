@@ -4,6 +4,11 @@ toggleBtn.addEventListener("click", () => {
   document.getElementById("navRight").classList.toggle("toggle");
 });
 
+const ChangeState = document.getElementsByClassName("navLink");
+ChangeState.addEventListener("click", () => {
+  document.getElementById("navRight").classList.remove("toggle");
+});
+
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;

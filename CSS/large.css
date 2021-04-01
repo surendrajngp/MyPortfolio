@@ -52,7 +52,7 @@ body {
 }
 /* Media Query for Laptops and Desktops */
 
-#logo h1 {
+#logo  {
   font-family: "roboto", sans-serif;
   font-size: 2rem;
   font-weight: bold;
@@ -73,6 +73,7 @@ body {
     left: 0;
     z-index: 99;
     background-color: white;
+    padding: 10px;
   }
   #navbar {
     display: flex;
@@ -98,6 +99,9 @@ body {
   .navLink {
     color: var(--primaryTextColor);
     text-decoration: none;
+    font-weight: bold;
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
     padding: 0.5rem 1rem;
     transition: all 0.3s ease-out;
   }
